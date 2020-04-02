@@ -8,12 +8,12 @@
     "orientation": "portrait-primary",
     "icons": [
       {
-        "src": "/Portfolio/assets/images/apple-touch-icon-72x72.png",
+        "src": "/Portfolio/assets/img/apple-touch-icon-72x72.png",
         "type": "image/png", 
         "sizes": "72x72"
       },
       {
-        "src": "/Portfolio/assets/images/favicon-96x96.png",
+        "src": "/Portfolio/assets/img/favicon-96x96.png",
         "type": "image/png",
         "sizes": "96x96"
       },
