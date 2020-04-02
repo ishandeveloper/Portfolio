@@ -15,6 +15,9 @@ body {
     color: var(--light-text-color);
     overflow-x: hidden;
 }
+.comingsoon h1{
+    font-size: 3em;
+}
 .comingsoon {
     position: absolute;
     margin: auto;
