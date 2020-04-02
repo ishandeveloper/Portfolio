@@ -12,6 +12,7 @@
 
         gtag('config', 'UA-159411627-1');
     </script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <meta charset="utf-8">
@@ -42,15 +43,16 @@
                 </div>
             </center>
         </nav>
-        <div style="margin-top:10vh;" class="row">
+        <div class="animated fadeIn row" style="margin-top:10vh;animation-duration: 1.5s;">
             <div class="col-md-6" id="left-hero">
-                <h1 class="hero-tag">Hi, I'm Ishan</h1>
+                <h1 class="hero-tag"><span class="typer" id="main" data-words="Hi, I'm Ishan." data-delay="100" data-deleteDelay="1000" data-loop="1"></span>
+                    &nbsp;</h1>
                 <p class="hero-des">I make elegantly professional <b>web</b> apps and <b>flutter</b> apps for a living
                     and also design <b>user experiences</b>.
                     If you want me to do any one of these for you, get in touch with me here.
                 </p>
-
-                <button class="learn-btn">
+                <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
+                <button class="animated bounce delay-4s learn-btn">
                     Learn More
                 </button>
                 <button class="contact-btn">
