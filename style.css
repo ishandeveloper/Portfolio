@@ -326,6 +326,8 @@ li span:hover:after {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
+        height: 100vh;
+        width: 100vw;
     }
 
 }
@@ -348,6 +350,7 @@ li span:hover:after {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
+        height: 100vh;
     }
 
     #left-hero {
