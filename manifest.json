@@ -1,0 +1,21 @@
+{
+    "name": "Ishan Sharma | ishandeveloper",
+    "short_name": "Ishan Sharma",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#FFFFFF",
+    "theme_color": "#444444", 
+    "orientation": "portrait-primary",
+    "icons": [
+      {
+        "src": "/assets/img/favicon.png",
+        "type": "image/png", 
+        "sizes": "72x72"
+      },
+      {
+        "src": "/assets/img/mobile.png",
+        "type": "image/png",
+        "sizes": "96x96"
+      }
+    ]
+  }
