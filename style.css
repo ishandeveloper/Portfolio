@@ -1,9 +1,50 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
+:root {
+    --primary-color: none;
+    --overlay-color: rgba(255, 255, 255, 0.9);
+    --menu-speed: 0.75s;
+    --light-text-color:#444;
+    --black-color:#000;
+    --white-color:#fff;
+    --hero-color:black;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
-    color: #444;
+    color: var(--light-text-color);
     overflow-x: hidden;
+}
+.comingsoon {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    /* background: white; */
+    text-align: center;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* width: 40em; */
+    height: 10em;
+    animation: opac 0.1s ease-in-out 5;
+}
+.comingsoon a{
+    color:#444;
+    font-weight: bold;
+    text-decoration: none;
+    transition: font-size 1s;
+}
+.comingsoon a:hover{
+    color:blue;
+    font-size:1.5em;
+}
+.social-icons a{
+    color:var(--light-text-color);
+    text-decoration: none;
+    transition: all 1s;
+}
+.social-icons a:hover{
+    color:blue;
 }
 
 .nav-desk {
@@ -25,11 +66,7 @@ body {
 
 }
 
-:root {
-    --primary-color: none;
-    --overlay-color: rgba(255, 255, 255, 0.9);
-    --menu-speed: 0.75s;
-}
+
 
 .menu-wrap {
     position: fixed;
@@ -164,7 +201,7 @@ body {
 
 .menu-wrap .menu>div>div>ul>li {
     list-style: none;
-    color: #fff;
+    color: var(--white-color);
     font-size: 1.5rem;
     padding: 1rem;
 }
@@ -193,6 +230,7 @@ body {
     text-align: left;
     font-size: 4.5em;
     font-weight: bold;
+    color:var(--hero-color);
     font-family: 'CircularStd', sans-serif;
 }
 
@@ -205,18 +243,27 @@ body {
 
 .learn-btn {
     padding: 5px 10px;
-    background: #454545;
+    background: var(--light-text-color);
     color: white;
-    border: 2px solid #454545;
+    border: 2px solid var(--light-text-color);
     letter-spacing: 0.1;
+    transition: all 1s;
 }
-
+.learn-btn:hover{
+    background:blue;
+    border:2px solid blue;
+}
 .contact-btn {
     margin-left: 6px;
     padding: 5px 10px;
-    color: #454545;
+    color: var(--light-text-color);
     background: none;
-    border: 2px solid #454545;
+    border: 2px solid var(--light-text-color);
+    transition: all 1s;
+}
+.contact-btn:hover{
+    color:blue;
+    border:2px solid blue;
 }
 
 #hero-img {
@@ -276,7 +323,7 @@ li span:after {
     height: 1px;
     top: 50%;
     margin-top: -0.5px;
-    background: #000;
+    background: var(--black-color);
 }
 
 li span:before {
@@ -285,12 +332,12 @@ li span:before {
 
 li span:after {
     right: 2.5px;
-    background: #000;
+    background:var(--black-color);
     transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 
 li span:hover:before {
-    background: #000;
+    background: var(--black-color);
     width: 100%;
     transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
@@ -383,7 +430,7 @@ li span:hover:after {
     }
 
     .menu ul li a {
-        color: black !important;
+        color: var(--black-color) !important;
     }
 
     .menu-wrap .hamburger {
