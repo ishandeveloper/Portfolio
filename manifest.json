@@ -4,7 +4,7 @@
     "start_url": "/Portfolio/index.html",
     "display": "standalone",
     "background_color": "#FFFFFF",
-    "theme_color": "#444444", 
+    "theme_color": "#FFFFFF", 
     "orientation": "portrait-primary",
     "icons": [
       {
