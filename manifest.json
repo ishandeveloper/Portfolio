@@ -8,42 +8,42 @@
     "orientation": "portrait-primary",
     "icons": [
       {
-        "src": "/assets/images/favicon.png",
+        "src": "/Portfolio/assets/images/favicon.png",
         "type": "image/png", 
         "sizes": "72x72"
       },
       {
-        "src": "/assets/images/mobile.png",
+        "src": "/Portfolio/assets/images/mobile.png",
         "type": "image/png",
         "sizes": "96x96"
       },
       {
-        "src": "/assets/img/favicon.png",
+        "src": "/Portfolio/assets/img/favicon.png",
         "type": "image/png",
         "sizes": "128x128"
       },
       {
-        "src": "/assets/img/favicon.pngg",
+        "src": "/Portfolio/assets/img/favicon.png",
         "type": "image/png",
         "sizes": "144x144"
       },
       {
-        "src": "/assets/img/favicon.png",
+        "src": "/Portfolio/assets/img/favicon.png",
         "type": "image/png",
         "sizes": "152x152"
       },
       {
-        "src": "/assets/img/favicon.png",
+        "src": "/Portfolio/assets/img/favicon.png",
         "type": "image/png",
         "sizes": "192x192"
       },
       {
-        "src": "/assets/img/favicon.png",
+        "src": "/Portfolio/assets/img/favicon.png",
         "type": "image/png",
         "sizes": "384x384"
       }, 
       {
-        "src": "/assets/img/favicon.png",
+        "src": "/Portfolio/assets/img/favicon.png",
         "type": "image/png",
         "sizes": "512x512"
       }
