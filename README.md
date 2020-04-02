@@ -1,5 +1,5 @@
 ### Portfolio
-A portfolio web template that I'm currently working on which will contain an about section, showcase, contact etc. Have a look.
+A fully responsive portfolio web template that I'm currently working on which will contain an about section, showcase, contact etc. Have a look.
 <pre>P.S. This project is still in development phase.</pre>
 <pre><a href="https://ishandeveloper.com/Portfolio/">VIEW LIVE DEMO</a></pre>
 
