@@ -357,5 +357,10 @@ span:hover:after {
     .menu ul li a{
         color:black!important;
     }
-    
+    .menu-wrap .hamburger{
+        z-index:2;
+    }
+    .menu-wrap .toggler {
+        z-index: 3;
+    }   
 }
