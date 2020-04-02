@@ -18,6 +18,7 @@ body {
 .comingsoon h1{
     font-size: 3em;
 }
+
 .comingsoon {
     position: absolute;
     margin: auto;
@@ -49,12 +50,20 @@ body {
 .social-icons a:hover{
     color:blue;
 }
+li span a{
+    color:#444;
+    text-decoration: none;
 
+}
+li span a:hover{
+    color:#444;
+    text-decoration: none;
+}
 .nav-desk {
     height: 10vh;
     position: fixed;
     display: block;
-    width: 75vw;
+    width: 80vw;
     margin: auto;
     top: 20px;
     left: 0;
@@ -236,14 +245,54 @@ body {
     color:var(--hero-color);
     font-family: 'CircularStd', sans-serif;
 }
-
+.contact-hero{
+    margin-top:10vh;
+ font-size: 3.5em;   
+}
 .hero-des {
     padding-right: 60px;
     text-align: justify;
     /* font-weight: 800; */
     letter-spacing: 1.2;
 }
-
+.contact-des{
+    letter-spacing: 0.2;
+}
+.input-container{
+    padding:10px 0px;
+}
+.form-group{
+    margin-bottom: 1rem;
+}
+label{
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+.form-control{
+    height: calc(2.25rem + 2px);
+    padding: .5rem .75rem;
+    width:90%;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background:none;
+    border: none;
+    border-bottom: 2px solid #444;
+    border-radius: 0rem;
+    transition:all .5s ease-in-out;
+    outline: none;
+}
+.form-control:focus{
+    outline:none;
+    border-bottom: 2px solid blue;
+    box-shadow:none;
+}
+.form-control:hover{
+    background: whitesmoke;
+}
+/* input:focus, textarea:focus, select:focus{
+    outline: none;
+} */
 .learn-btn {
     padding: 5px 10px;
     background: var(--light-text-color);
@@ -251,6 +300,14 @@ body {
     border: 2px solid var(--light-text-color);
     letter-spacing: 0.1;
     transition: all 1s;
+}
+.contact-des a{
+    text-decoration: none;
+    color:#444;
+    transition:color 1s;
+}
+.contact-des a:hover{
+    color:blue;
 }
 .learn-btn:hover{
     background:blue;
@@ -279,7 +336,10 @@ body {
 }
 
 #logo {
+    margin-top:5px;
     height: 80%;
+    padding:6px;
+    border:4px solid #444;
     border-radius: 50%;
 }
 
@@ -382,9 +442,9 @@ li span:hover:after {
 
 }
 
-#logo {
+/* #logo {
     display: none;
-}
+} */
 
 @media only screen and (max-width: 768px) {
 
@@ -442,5 +502,8 @@ li span:hover:after {
 
     .menu-wrap .toggler {
         z-index: 3;
+    }
+    .contact-hero{
+        margin-top: 10vh;
     }
 }
