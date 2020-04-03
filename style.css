@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@font-face {
+    font-family: CircularStd;
+    src: url(assets/fonts/CircularStd-Bold.eot);
+    src: url("assets/fonts/CircularStd-Bold.eot?#iefix") format("embedded-opentype"), url("assets/fonts/CircularStd-Bold.woff") format("woff"), url("assets/fonts/CircularStd-Bold.ttf") format("truetype"), url("assets/fonts/CircularStd-Bold.svg#bcc26993292869431e54c666aafa8fcd") format("svg");
+}
 
 :root {
     --primary-color: none;
@@ -59,13 +64,56 @@ li span a:hover{
     color:#444;
     text-decoration: none;
 }
+.copyright-legal{
+    font-size:1.1em;
+    color:#444;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.legal-links{
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 1s;
+}
+.legal-links:hover{
+    text-decoration: none;
+    color:blue;
+}
+.legal a, .legal a:hover, .legal a:active{
+    color:#444;
+    text-decoration: none;
+}
+.privacy-policy h1{
+    font-size:2.5em;
+    /* font-family: 'CircularStd'; */
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+.privacy-policy h2{
+    font-size:25px;
+    font-family: 'CircularStd';
+    /* letter-spacing: 0.1rem; */
+}
+.legal-des{
+    text-align: justify;
+    font-weight: 500;
+}
+.legal-des strong{
+    /* font-size: 1.1em; */
+    font-weight: 900;
+}
+.privacy-policy p{
+    padding-right: 13vw;
+    letter-spacing: 0.8px;
+}
 .nav-desk {
     height: 10vh;
-    position: fixed;
+    /* position: fixed; */
     display: block;
     width: 80vw;
     margin: auto;
-    top: 20px;
+
+    margin-top: 20px;
     left: 0;
     right: 0;
     /* background: black; */
@@ -231,11 +279,6 @@ li span a:hover{
     right: 25px;
 }
 
-@font-face {
-    font-family: CircularStd;
-    src: url(assets/fonts/CircularStd-Bold.eot);
-    src: url("assets/fonts/CircularStd-Bold.eot?#iefix") format("embedded-opentype"), url("assets/fonts/CircularStd-Bold.woff") format("woff"), url("assets/fonts/CircularStd-Bold.ttf") format("truetype"), url("assets/fonts/CircularStd-Bold.svg#bcc26993292869431e54c666aafa8fcd") format("svg");
-}
 
 .hero-tag {
     margin-top: 20vh;
@@ -246,7 +289,7 @@ li span a:hover{
     font-family: 'CircularStd', sans-serif;
 }
 .contact-hero{
-    margin-top:10vh;
+    margin-top:0vh;
  font-size: 3.5em;   
 }
 .hero-des {
@@ -365,7 +408,31 @@ li {
 .social-icons {
     margin-top: 30%;
 }
-
+.footer-full{
+    width:80vw;
+    margin:0 auto;
+    padding:30px 10px;
+    padding-top:100px;
+    position: relative;
+    bottom:0;
+    left:0;
+    right: 0;
+}
+.footer-credits{
+    float: right;
+    /* display: inline; */
+}
+.footer-credits a{
+    color:#444;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 1s;
+}
+.footer-credits a:hover{
+    color:blue;
+    text-decoration: none;
+    font-weight: bold;
+}
 .social-icons i {
     font-size: 2em;
     /* font-weight: 100; */
@@ -474,6 +541,7 @@ li span:hover:after {
 
     .hero-tag {
         margin-top: 20vh;
+        font-size: 4em;
     }
 
     #hero-right {
@@ -506,4 +574,28 @@ li span:hover:after {
     .contact-hero{
         margin-top: 10vh;
     }
+}
+
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: white;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #444;
+    border-radius:50px;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+
 }
