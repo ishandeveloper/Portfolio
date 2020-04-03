@@ -3,6 +3,7 @@ const assets = [
     '/Portfolio/',
     '/Portfolio/index.html',
     '/Portfolio/contact.html',
+    '/Portfolio/legal.html',
     '/Portfolio/404.html',
     '/style.css',
     '/Portfolio/assets/img/mobile.png',
