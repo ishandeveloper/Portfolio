@@ -465,6 +465,9 @@ li span:after {
     background:var(--black-color);
     transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
+.footer-full{
+    padding-top:60px;
+}
 
 li span:hover:before {
     background: var(--black-color);
@@ -537,6 +540,8 @@ li span:hover:after {
 
     #logo {
         display: none;
+        /* height: 65%;
+        margin-top: 28px; */
     }
 
     .hero-tag {
@@ -574,6 +579,33 @@ li span:hover:after {
     .contact-hero{
         margin-top: 10vh;
     }
+    .footer-full{
+        text-align: center;
+        padding-top:40px!important;
+    }
+    #contact-social{
+        margin-top:10%;
+    }
+    .footer-credits{
+        display: block;
+        text-align: center;
+        padding-top: 10px;
+        float:none;
+    }
+    #legal-hero{
+        margin-top:5vh!important;
+        text-align: left;
+    }
+    #legal-hero-des{
+        padding-right: 10px;
+        text-align: left;
+        font-size: 0.8em;
+    }
+    .privacy-policy p{
+        padding-right: 1vw;
+        /* text-align: left; */
+    }
+    
 }
 
 
