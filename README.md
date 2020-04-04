@@ -4,9 +4,9 @@ A fully responsive progressive web app based portfolio that I'm currently workin
 <pre><a href="https://ishandeveloper.com/Portfolio/">VIEW LIVE DEMO</a></pre>
 
 ##### [Desktop]
-<img src="https://github.com/ishandeveloper/Portfolio/blob/master/screenshots/1.png?raw=false" width="50%"><img src="https://github.com/ishandeveloper/Portfolio/blob/master/screenshots/2.png?raw=false" width="50%">
+<img src="https://github.com/ishandeveloper/Portfolio/blob/master/screenshots/1.png?raw=false" width="50%"><img src="https://github.com/ishandeveloper/Portfolio/blob/master/screenshots/3.png?raw=false" width="50%">
 ##### [Mobile]
-<img src="https://github.com/ishandeveloper/Portfolio/blob/master/screenshots/1-mobile.png?raw=false" width="30%"><img src="https://github.com/ishandeveloper/Portfolio/blob/master/screenshots/2-mobile.png?raw=false" width="30%">
+<img src="https://github.com/ishandeveloper/Portfolio/blob/master/screenshots/1-mobile.png?raw=false" width="30%"><img src="https://github.com/ishandeveloper/Portfolio/blob/master/screenshots/3-mobile.png?raw=false" width="30%">
 
 ##### Made with ♥ by <a href="https://github.com/ishandeveloper">ishandeveloper</a>
 
