@@ -15,7 +15,50 @@
     --white-color: #fff;
     --hero-color: black;
 }
-
+.work-hero-card{
+    display: block;
+    margin:0 auto;
+    width:80%;
+    background: #fff;
+    align-items: center;
+    padding:0;
+    border-radius: 10px;
+    padding-bottom: 15px;
+    /* border:1px solid #44444450; */
+    box-shadow: 1px 1px 20px #00000025;
+    cursor: pointer;
+    transition: all 1s;
+}
+#work-text{
+    text-align: center;
+    font-size: 1.5em;
+}
+.work-hero-card h1{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+.work-hero-card:hover{
+    width:85%;
+    box-shadow: 0px 0px 20px #88888875;
+    animation:zoom 1s;
+}
+.work-card-hero-img{
+    width:100%;
+    display: block;
+    /* border:1px solid #44444450; */
+    border-radius: 10px;
+    border-bottom: none;
+    margin:0 auto;
+    left:0;
+    right: 0;
+}
+.work-double-row{
+    padding-left:120px;
+    padding-right: 120px;
+    margin-top: 80px;
+}
 .project-star {
     position: absolute;
     background: #ffff0080;
@@ -49,6 +92,10 @@
     border-radius: 10px;
     /* box-shadow: 0px 0px 5px #444; */
     width: 90%;
+    transition: width 1s;
+}
+.work-hero:hover{
+    width: 95%;
 }
 
 .work-des {
@@ -676,6 +723,13 @@ li span:hover:after {
         width: 0;
         height: 0;
         display: none;
+    }
+    .work-double-row{
+        padding:30px 20px;
+    }
+    .work-hero-card{
+        width:100%;
+        margin-bottom: 25px;
     }
 
     #index-body {
