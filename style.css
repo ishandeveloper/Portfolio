@@ -701,7 +701,10 @@ li span:hover:after {
     #hero-right {
         display: none;
     }
-
+    .work-double-row{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
     #index-body {
         background: url('assets/img/mobile.png');
         background-size: cover;
