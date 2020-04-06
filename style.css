@@ -29,6 +29,7 @@
     cursor: pointer;
     transition: all 1s;
     height: 100%;
+    
 }
 #work-text{
     text-align: center;
@@ -44,6 +45,7 @@
     width:85%;
     box-shadow: 0px 0px 20px #88888875;
     animation:zoom 1s;
+    /* filter: none; */
 }
 .work-card-hero-img{
     width:100%;
