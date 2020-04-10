@@ -22,7 +22,7 @@
     background: #fff;
     align-items: center;
     padding:0;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     padding-bottom: 15px;
     /* border:1px solid #44444450; */
     box-shadow: 1px 1px 20px #00000025;
@@ -51,7 +51,7 @@
     width:100%;
     display: block;
     /* border:1px solid #44444450; */
-    border-radius: 10px;
+    /* border-radius: 10px; */
     border-bottom: none;
     margin:0 auto;
     left:0;
