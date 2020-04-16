@@ -708,7 +708,7 @@ li span:hover:after {
         padding-right: 30px;
     }
     #index-body {
-        background: url('assets/img/mobile.png');
+/*         background: url('assets/img/mobile.png'); */
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -747,7 +747,7 @@ li span:hover:after {
         padding:0 20px;
     }
     #index-body {
-        background: url('assets/img/mobile.png');
+/*         background: url('assets/img/mobile.png'); */
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
