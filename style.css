@@ -6,6 +6,12 @@
     src: url("assets/fonts/CircularStd-Bold.eot?#iefix") format("embedded-opentype"), url("assets/fonts/CircularStd-Bold.woff") format("woff"), url("assets/fonts/CircularStd-Bold.ttf") format("truetype"), url("assets/fonts/CircularStd-Bold.svg#bcc26993292869431e54c666aafa8fcd") format("svg");
 }
 
+div#hero-right.col-md-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 :root {
     --primary-color: none;
     --overlay-color: rgba(255, 255, 255, 0.9);
@@ -278,14 +284,19 @@ li span a:hover {
     padding-right: 13vw;
     letter-spacing: 0.8px;
 }
+.span-text{
+    font-size: 20px;
+    margin: auto;
+}
 
 .nav-desk {
-    height: 10vh;
+    height: 25vh;
     /* position: fixed; */
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
     width: 80vw;
     margin: auto;
-
     margin-top: 20px;
     left: 0;
     right: 0;
@@ -454,7 +465,7 @@ li span a:hover {
 
 
 .hero-tag {
-    margin-top: 20vh;
+    /* margin-top: 20vh; */
     text-align: left;
     font-size: 4.5em;
     font-weight: bold;
@@ -466,8 +477,12 @@ li span a:hover {
     margin-top: 0vh;
     font-size: 3.5em;
 }
-
+.col{
+    display: flex;
+    justify-content: center;
+}
 .hero-des {
+    margin-left: 50px;
     padding-right: 60px;
     text-align: justify;
     /* font-weight: 800; */
@@ -563,7 +578,11 @@ label {
 }
 
 #left-hero {
-    padding-left: 150px;
+    /* padding-left: 150px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 #logo {
@@ -574,11 +593,18 @@ label {
     border-radius: 50%;
 }
 
-/* .nav-items{
+.nav-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color:black;
-    float:right;
-} */
+    /* float:right; */
+    /* margin-bottom: 20%; */
+}
 ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     float: right;
     /* color:white; */
     list-style: none;
@@ -594,7 +620,7 @@ li {
 }
 
 .social-icons {
-    margin-top: 30%;
+    margin-top: 10%;
 }
 
 .footer-full {
