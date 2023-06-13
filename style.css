@@ -619,6 +619,11 @@ li {
     right: 0;
 }
 
+.hacettepe {
+   padding-right: 500px;
+   margin-left: 1000px;
+}
+
 .footer-credits {
     float: right;
     /* display: inline; */
@@ -671,7 +676,7 @@ li span:after {
 }
 
 .footer-full {
-    padding-top: 10px;
+    padding-top: 0px;
 }
 
 li span:hover:before {
@@ -798,7 +803,8 @@ li span:hover:after {
         display: none;
     }
 
-    .hero-des {
+    .hero-des2 {
+        padding-top: 50px;
         padding-right: 30px;
     }
 
@@ -890,3 +896,4 @@ li span:hover:after {
     background: #555;
 
 }
+
