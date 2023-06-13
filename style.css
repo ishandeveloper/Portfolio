@@ -126,6 +126,11 @@
     border-radius: 10px;
 }
 
+.work-hero-video {
+    width: 85%;
+    border-radius: 10px;
+}
+
 .technologies h2 {
     font-size: 0.8em;
     font-weight: bold;
@@ -666,7 +671,7 @@ li span:after {
 }
 
 .footer-full {
-    padding-top: 60px;
+    padding-top: 10px;
 }
 
 li span:hover:before {
