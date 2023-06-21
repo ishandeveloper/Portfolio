@@ -88,6 +88,7 @@
     padding-left: 135px;
     padding-right: 135px;
     width: 100vw;
+    padding-top:130px;
 }
 
 .work-hero {
@@ -117,6 +118,16 @@
 
 .work-hero-img {
     width: 100%;
+    border-radius: 10px;
+}
+
+.work-hero-img2 {
+    width: 75%;
+    border-radius: 10px;
+}
+
+.work-hero-video {
+    width: 85%;
     border-radius: 10px;
 }
 
@@ -567,11 +578,11 @@ label {
 }
 
 #logo {
-    margin-top: 5px;
-    height: 80%;
-    padding: 6px;
-    border: 4px solid #444;
-    border-radius: 50%;
+    margin-top: 130px;
+    margin-right: 200px;
+    height: 200px;
+    
+
 }
 
 /* .nav-items{
@@ -606,6 +617,11 @@ li {
     bottom: 0;
     left: 0;
     right: 0;
+}
+
+.hacettepe {
+   padding-right: 500px;
+   margin-left: 1000px;
 }
 
 .footer-credits {
@@ -660,7 +676,7 @@ li span:after {
 }
 
 .footer-full {
-    padding-top: 60px;
+    padding-top: 0px;
 }
 
 li span:hover:before {
@@ -787,7 +803,8 @@ li span:hover:after {
         display: none;
     }
 
-    .hero-des {
+    .hero-des2 {
+        padding-top: 50px;
         padding-right: 30px;
     }
 
@@ -879,3 +896,4 @@ li span:hover:after {
     background: #555;
 
 }
+
